@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maindiv{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+.web{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    background-color:aqua;
+    background: url(web.jpeg) no-repeat;
+    background-size: 50vw 50vh;
+    background-color: rgb(72, 72, 72);
+    background-blend-mode: multiply;
+    
+}
+.heading{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+}
+.mainheading span{
+    color: aqua;
+}
+.para1{
+    color: antiquewhite;
+}
+.desktop{
+
+    grid-column: 1/1;
+    grid-row: 2/3;
+    background-color: bisque;
+    background: url(desktop.jpeg) no-repeat;
+    background-size: 50vw 50vh;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+.android{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    background-color: rgb(29, 22, 12);
+    background: url(android.jpeg) no-repeat;
+    background-size: 50vw 50vh;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+.game{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: bisque;
+    background: url(games.jpeg) no-repeat;
+    background-size: 50vw 50vh;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
